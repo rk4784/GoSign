@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B90FC9D81CE2F928000828D1 /* GSUserSettingsFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC9D71CE2F928000828D1 /* GSUserSettingsFrontViewController.m */; };
 		B90FC9DD1CE2FB56000828D1 /* AccordionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC9DC1CE2FB56000828D1 /* AccordionView.m */; };
 		B90FC9DF1CE30A74000828D1 /* GSRightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B90FC9DE1CE30A74000828D1 /* GSRightArrow.png */; };
 		B90FC9E11CE35BC3000828D1 /* GSRightArrowBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = B90FC9E01CE35BC3000828D1 /* GSRightArrowBlack.png */; };
@@ -26,13 +25,14 @@
 		B91A459A1CC7F1DB00BEFFDF /* GSSlideImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B91A45991CC7F1DB00BEFFDF /* GSSlideImage3.jpg */; };
 		B91A459D1CC7F1E000BEFFDF /* GSSlideImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B91A459B1CC7F1E000BEFFDF /* GSSlideImage2.jpg */; };
 		B91A459E1CC7F1E000BEFFDF /* GSSlideImage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B91A459C1CC7F1E000BEFFDF /* GSSlideImage1.jpg */; };
-		B93769341CCE459000FA5E1A /* GSUserTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93769331CCE459000FA5E1A /* GSUserTabBarController.m */; };
-		B9382A191CE37F26004C5F5E /* GSUserChangePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9382A181CE37F26004C5F5E /* GSUserChangePlanViewController.m */; };
-		B9382A1C1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9382A1B1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.m */; };
 		B9382A1F1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9382A1E1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.m */; };
 		B9382A211CE48BD7004C5F5E /* GSBoldaddicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B9382A201CE48BD7004C5F5E /* GSBoldaddicon.png */; };
 		B9382A251CE4A3FB004C5F5E /* GSUserAskQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9382A241CE4A3FB004C5F5E /* GSUserAskQuestionViewController.m */; };
-		B980270B1CC7FC360022E734 /* GSUserSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B980270A1CC7FC360022E734 /* GSUserSettingsViewController.m */; };
+		B95B2F661D76E96100FF3225 /* GSUserChangePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95B2F5F1D76E96100FF3225 /* GSUserChangePlanViewController.m */; };
+		B95B2F671D76E96100FF3225 /* GSUserSettingsFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95B2F611D76E96100FF3225 /* GSUserSettingsFrontViewController.m */; };
+		B95B2F681D76E96100FF3225 /* GSUserSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95B2F631D76E96100FF3225 /* GSUserSettingsViewController.m */; };
+		B95B2F691D76E96100FF3225 /* GSUserTransactionHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95B2F651D76E96100FF3225 /* GSUserTransactionHistoryViewController.m */; };
+		B95B2F6C1D76E96D00FF3225 /* GSUserTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95B2F6B1D76E96D00FF3225 /* GSUserTabBarController.m */; };
 		B980270D1CC801470022E734 /* GSUserProfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B980270C1CC801470022E734 /* GSUserProfile.jpg */; };
 		B980274F1CC8F69D0022E734 /* GSUserHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B980274E1CC8F69D0022E734 /* GSUserHomeViewController.m */; };
 		B98027551CC9E7E50022E734 /* GSColorsDeclarationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98027541CC9E7E50022E734 /* GSColorsDeclarationViewController.m */; };
@@ -79,8 +79,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B90FC9D61CE2F928000828D1 /* GSUserSettingsFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserSettingsFrontViewController.h; sourceTree = "<group>"; };
-		B90FC9D71CE2F928000828D1 /* GSUserSettingsFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserSettingsFrontViewController.m; sourceTree = "<group>"; };
 		B90FC9DB1CE2FB56000828D1 /* AccordionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionView.h; sourceTree = "<group>"; };
 		B90FC9DC1CE2FB56000828D1 /* AccordionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccordionView.m; sourceTree = "<group>"; };
 		B90FC9DE1CE30A74000828D1 /* GSRightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSRightArrow.png; sourceTree = "<group>"; };
@@ -110,19 +108,21 @@
 		B91A45991CC7F1DB00BEFFDF /* GSSlideImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GSSlideImage3.jpg; sourceTree = "<group>"; };
 		B91A459B1CC7F1E000BEFFDF /* GSSlideImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GSSlideImage2.jpg; sourceTree = "<group>"; };
 		B91A459C1CC7F1E000BEFFDF /* GSSlideImage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GSSlideImage1.jpg; sourceTree = "<group>"; };
-		B93769321CCE459000FA5E1A /* GSUserTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserTabBarController.h; sourceTree = "<group>"; };
-		B93769331CCE459000FA5E1A /* GSUserTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserTabBarController.m; sourceTree = "<group>"; };
-		B9382A171CE37F26004C5F5E /* GSUserChangePlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserChangePlanViewController.h; sourceTree = "<group>"; };
-		B9382A181CE37F26004C5F5E /* GSUserChangePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserChangePlanViewController.m; sourceTree = "<group>"; };
-		B9382A1A1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserTransactionHistoryViewController.h; sourceTree = "<group>"; };
-		B9382A1B1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserTransactionHistoryViewController.m; sourceTree = "<group>"; };
 		B9382A1D1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSSignUpTimeFileChooserViewController.h; sourceTree = "<group>"; };
 		B9382A1E1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSSignUpTimeFileChooserViewController.m; sourceTree = "<group>"; };
 		B9382A201CE48BD7004C5F5E /* GSBoldaddicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSBoldaddicon.png; sourceTree = "<group>"; };
 		B9382A231CE4A3FB004C5F5E /* GSUserAskQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserAskQuestionViewController.h; sourceTree = "<group>"; };
 		B9382A241CE4A3FB004C5F5E /* GSUserAskQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserAskQuestionViewController.m; sourceTree = "<group>"; };
-		B98027091CC7FC360022E734 /* GSUserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserSettingsViewController.h; sourceTree = "<group>"; };
-		B980270A1CC7FC360022E734 /* GSUserSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserSettingsViewController.m; sourceTree = "<group>"; };
+		B95B2F5E1D76E96100FF3225 /* GSUserChangePlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSUserChangePlanViewController.h; path = GSUserSectionGroups/GSUserSettingPages/GSUserChangePlanViewController.h; sourceTree = "<group>"; };
+		B95B2F5F1D76E96100FF3225 /* GSUserChangePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSUserChangePlanViewController.m; path = GSUserSectionGroups/GSUserSettingPages/GSUserChangePlanViewController.m; sourceTree = "<group>"; };
+		B95B2F601D76E96100FF3225 /* GSUserSettingsFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSUserSettingsFrontViewController.h; path = GSUserSectionGroups/GSUserSettingPages/GSUserSettingsFrontViewController.h; sourceTree = "<group>"; };
+		B95B2F611D76E96100FF3225 /* GSUserSettingsFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSUserSettingsFrontViewController.m; path = GSUserSectionGroups/GSUserSettingPages/GSUserSettingsFrontViewController.m; sourceTree = "<group>"; };
+		B95B2F621D76E96100FF3225 /* GSUserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSUserSettingsViewController.h; path = GSUserSectionGroups/GSUserSettingPages/GSUserSettingsViewController.h; sourceTree = "<group>"; };
+		B95B2F631D76E96100FF3225 /* GSUserSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSUserSettingsViewController.m; path = GSUserSectionGroups/GSUserSettingPages/GSUserSettingsViewController.m; sourceTree = "<group>"; };
+		B95B2F641D76E96100FF3225 /* GSUserTransactionHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSUserTransactionHistoryViewController.h; path = GSUserSectionGroups/GSUserSettingPages/GSUserTransactionHistoryViewController.h; sourceTree = "<group>"; };
+		B95B2F651D76E96100FF3225 /* GSUserTransactionHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSUserTransactionHistoryViewController.m; path = GSUserSectionGroups/GSUserSettingPages/GSUserTransactionHistoryViewController.m; sourceTree = "<group>"; };
+		B95B2F6A1D76E96D00FF3225 /* GSUserTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSUserTabBarController.h; path = GSUserSectionGroups/GSUserTabBarPages/GSUserTabBarController.h; sourceTree = "<group>"; };
+		B95B2F6B1D76E96D00FF3225 /* GSUserTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSUserTabBarController.m; path = GSUserSectionGroups/GSUserTabBarPages/GSUserTabBarController.m; sourceTree = "<group>"; };
 		B980270C1CC801470022E734 /* GSUserProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GSUserProfile.jpg; sourceTree = "<group>"; };
 		B980274D1CC8F69D0022E734 /* GSUserHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserHomeViewController.h; sourceTree = "<group>"; };
 		B980274E1CC8F69D0022E734 /* GSUserHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserHomeViewController.m; sourceTree = "<group>"; };
@@ -332,14 +332,14 @@
 		B91A45851CC7C7A600BEFFDF /* GSUserSettingPages */ = {
 			isa = PBXGroup;
 			children = (
-				B98027091CC7FC360022E734 /* GSUserSettingsViewController.h */,
-				B980270A1CC7FC360022E734 /* GSUserSettingsViewController.m */,
-				B90FC9D61CE2F928000828D1 /* GSUserSettingsFrontViewController.h */,
-				B90FC9D71CE2F928000828D1 /* GSUserSettingsFrontViewController.m */,
-				B9382A171CE37F26004C5F5E /* GSUserChangePlanViewController.h */,
-				B9382A181CE37F26004C5F5E /* GSUserChangePlanViewController.m */,
-				B9382A1A1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.h */,
-				B9382A1B1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.m */,
+				B95B2F5E1D76E96100FF3225 /* GSUserChangePlanViewController.h */,
+				B95B2F5F1D76E96100FF3225 /* GSUserChangePlanViewController.m */,
+				B95B2F601D76E96100FF3225 /* GSUserSettingsFrontViewController.h */,
+				B95B2F611D76E96100FF3225 /* GSUserSettingsFrontViewController.m */,
+				B95B2F621D76E96100FF3225 /* GSUserSettingsViewController.h */,
+				B95B2F631D76E96100FF3225 /* GSUserSettingsViewController.m */,
+				B95B2F641D76E96100FF3225 /* GSUserTransactionHistoryViewController.h */,
+				B95B2F651D76E96100FF3225 /* GSUserTransactionHistoryViewController.m */,
 			);
 			name = GSUserSettingPages;
 			sourceTree = "<group>";
@@ -444,8 +444,8 @@
 		B9B913631CD1062D0020CBF4 /* GSUserTabBarPages */ = {
 			isa = PBXGroup;
 			children = (
-				B93769321CCE459000FA5E1A /* GSUserTabBarController.h */,
-				B93769331CCE459000FA5E1A /* GSUserTabBarController.m */,
+				B95B2F6A1D76E96D00FF3225 /* GSUserTabBarController.h */,
+				B95B2F6B1D76E96D00FF3225 /* GSUserTabBarController.m */,
 			);
 			name = GSUserTabBarPages;
 			sourceTree = "<group>";
@@ -613,27 +613,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95B2F661D76E96100FF3225 /* GSUserChangePlanViewController.m in Sources */,
 				B91A45961CC7E47000BEFFDF /* GSSignUpViewController.m in Sources */,
+				B95B2F671D76E96100FF3225 /* GSUserSettingsFrontViewController.m in Sources */,
 				B9B321931CCA99C3007BC434 /* GSUserMyCapturesViewController.m in Sources */,
 				B9B321901CCA974D007BC434 /* GSUserContactUsViewController.m in Sources */,
 				B9382A1F1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.m in Sources */,
-				B9382A191CE37F26004C5F5E /* GSUserChangePlanViewController.m in Sources */,
+				B95B2F6C1D76E96D00FF3225 /* GSUserTabBarController.m in Sources */,
 				B9B9140E1CE0C2EA0020CBF4 /* GSUserMyAnalysisDetailsShowViewController.m in Sources */,
-				B980270B1CC7FC360022E734 /* GSUserSettingsViewController.m in Sources */,
 				B9B321A51CCB99B9007BC434 /* GSWebServicesCalling.m in Sources */,
 				B9B914161CE1F9F20020CBF4 /* GSForgetPasswordViewController.m in Sources */,
 				B9B321961CCAB155007BC434 /* GSUserAnalysisTableViewController.m in Sources */,
+				B95B2F691D76E96100FF3225 /* GSUserTransactionHistoryViewController.m in Sources */,
+				B95B2F681D76E96100FF3225 /* GSUserSettingsViewController.m in Sources */,
 				B91A454F1CC7C6C100BEFFDF /* AppDelegate.m in Sources */,
 				B980274F1CC8F69D0022E734 /* GSUserHomeViewController.m in Sources */,
-				B93769341CCE459000FA5E1A /* GSUserTabBarController.m in Sources */,
 				B98027551CC9E7E50022E734 /* GSColorsDeclarationViewController.m in Sources */,
 				B9382A251CE4A3FB004C5F5E /* GSUserAskQuestionViewController.m in Sources */,
 				B91A45901CC7D51000BEFFDF /* GSLoginViewController.m in Sources */,
 				B9B913601CD0F1D40020CBF4 /* GSLoginNavigationController.m in Sources */,
 				B91A454C1CC7C6C100BEFFDF /* main.m in Sources */,
 				B91A458D1CC7D3F700BEFFDF /* GSPageContentViewController.m in Sources */,
-				B9382A1C1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.m in Sources */,
-				B90FC9D81CE2F928000828D1 /* GSUserSettingsFrontViewController.m in Sources */,
 				B9B913681CD1F2580020CBF4 /* MBProgressHUD.m in Sources */,
 				B90FC9DD1CE2FB56000828D1 /* AccordionView.m in Sources */,
 			);
