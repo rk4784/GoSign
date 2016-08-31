@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90FC9D81CE2F928000828D1 /* GSUserSettingsFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC9D71CE2F928000828D1 /* GSUserSettingsFrontViewController.m */; };
+		B90FC9DD1CE2FB56000828D1 /* AccordionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC9DC1CE2FB56000828D1 /* AccordionView.m */; };
+		B90FC9DF1CE30A74000828D1 /* GSRightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B90FC9DE1CE30A74000828D1 /* GSRightArrow.png */; };
+		B90FC9E11CE35BC3000828D1 /* GSRightArrowBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = B90FC9E01CE35BC3000828D1 /* GSRightArrowBlack.png */; };
+		B91A454C1CC7C6C100BEFFDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B91A454B1CC7C6C100BEFFDF /* main.m */; };
+		B91A454F1CC7C6C100BEFFDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B91A454E1CC7C6C100BEFFDF /* AppDelegate.m */; };
+		B91A45581CC7C6C100BEFFDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91A45561CC7C6C100BEFFDF /* Main.storyboard */; };
+		B91A455A1CC7C6C100BEFFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91A45591CC7C6C100BEFFDF /* Assets.xcassets */; };
+		B91A455D1CC7C6C100BEFFDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91A455B1CC7C6C100BEFFDF /* LaunchScreen.storyboard */; };
+		B91A45681CC7C6C200BEFFDF /* GoSignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B91A45671CC7C6C200BEFFDF /* GoSignTests.m */; };
+		B91A45731CC7C6C200BEFFDF /* GoSignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B91A45721CC7C6C200BEFFDF /* GoSignUITests.m */; };
+		B91A458D1CC7D3F700BEFFDF /* GSPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91A458C1CC7D3F700BEFFDF /* GSPageContentViewController.m */; };
+		B91A45901CC7D51000BEFFDF /* GSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91A458F1CC7D51000BEFFDF /* GSLoginViewController.m */; };
+		B91A45931CC7D6F800BEFFDF /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B91A45921CC7D6F800BEFFDF /* image1.jpg */; };
+		B91A45961CC7E47000BEFFDF /* GSSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91A45951CC7E47000BEFFDF /* GSSignUpViewController.m */; };
+		B91A45981CC7E8EF00BEFFDF /* GSBackgroundImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B91A45971CC7E8EF00BEFFDF /* GSBackgroundImage.jpg */; };
+		B91A459A1CC7F1DB00BEFFDF /* GSSlideImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B91A45991CC7F1DB00BEFFDF /* GSSlideImage3.jpg */; };
+		B91A459D1CC7F1E000BEFFDF /* GSSlideImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B91A459B1CC7F1E000BEFFDF /* GSSlideImage2.jpg */; };
+		B91A459E1CC7F1E000BEFFDF /* GSSlideImage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B91A459C1CC7F1E000BEFFDF /* GSSlideImage1.jpg */; };
+		B93769341CCE459000FA5E1A /* GSUserTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93769331CCE459000FA5E1A /* GSUserTabBarController.m */; };
+		B9382A191CE37F26004C5F5E /* GSUserChangePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9382A181CE37F26004C5F5E /* GSUserChangePlanViewController.m */; };
+		B9382A1C1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9382A1B1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.m */; };
+		B9382A1F1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9382A1E1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.m */; };
+		B9382A211CE48BD7004C5F5E /* GSBoldaddicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B9382A201CE48BD7004C5F5E /* GSBoldaddicon.png */; };
+		B9382A251CE4A3FB004C5F5E /* GSUserAskQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9382A241CE4A3FB004C5F5E /* GSUserAskQuestionViewController.m */; };
+		B980270B1CC7FC360022E734 /* GSUserSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B980270A1CC7FC360022E734 /* GSUserSettingsViewController.m */; };
+		B980270D1CC801470022E734 /* GSUserProfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B980270C1CC801470022E734 /* GSUserProfile.jpg */; };
+		B980274F1CC8F69D0022E734 /* GSUserHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B980274E1CC8F69D0022E734 /* GSUserHomeViewController.m */; };
+		B98027551CC9E7E50022E734 /* GSColorsDeclarationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98027541CC9E7E50022E734 /* GSColorsDeclarationViewController.m */; };
+		B9B321901CCA974D007BC434 /* GSUserContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B3218F1CCA974D007BC434 /* GSUserContactUsViewController.m */; };
+		B9B321931CCA99C3007BC434 /* GSUserMyCapturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B321921CCA99C3007BC434 /* GSUserMyCapturesViewController.m */; };
+		B9B321961CCAB155007BC434 /* GSUserAnalysisTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B321951CCAB155007BC434 /* GSUserAnalysisTableViewController.m */; };
+		B9B3219C1CCAB9DA007BC434 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B3219B1CCAB9DA007BC434 /* Settings.png */; };
+		B9B3219E1CCABA07007BC434 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B3219D1CCABA07007BC434 /* Home.png */; };
+		B9B321A01CCABB24007BC434 /* Chat.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B3219F1CCABB24007BC434 /* Chat.png */; };
+		B9B321A21CCABB90007BC434 /* Analysis.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B321A11CCABB90007BC434 /* Analysis.png */; };
+		B9B321A51CCB99B9007BC434 /* GSWebServicesCalling.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B321A41CCB99B9007BC434 /* GSWebServicesCalling.m */; };
+		B9B912C21CCE89340020CBF4 /* GSSplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B912C11CCE89340020CBF4 /* GSSplashScreen.png */; };
+		B9B913021CCF4DBB0020CBF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B913011CCF4DBB0020CBF4 /* QuartzCore.framework */; };
+		B9B913151CCF689B0020CBF4 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B913111CCF689B0020CBF4 /* checked.png */; };
+		B9B913161CCF689B0020CBF4 /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B913121CCF689B0020CBF4 /* checked@2x.png */; };
+		B9B913171CCF689B0020CBF4 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B913131CCF689B0020CBF4 /* unchecked.png */; };
+		B9B913181CCF689B0020CBF4 /* unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B913141CCF689B0020CBF4 /* unchecked@2x.png */; };
+		B9B913201CCF84570020CBF4 /* GSClockIconWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B9131F1CCF84570020CBF4 /* GSClockIconWhite.png */; };
+		B9B913221CCF849B0020CBF4 /* GSCalenderIconWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B913211CCF849B0020CBF4 /* GSCalenderIconWhite.png */; };
+		B9B913251CCF86EE0020CBF4 /* GSCalenderIconBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B913231CCF86EE0020CBF4 /* GSCalenderIconBlack.png */; };
+		B9B913261CCF86EE0020CBF4 /* GSClockIconBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B913241CCF86EE0020CBF4 /* GSClockIconBlack.png */; };
+		B9B913601CD0F1D40020CBF4 /* GSLoginNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B9135F1CD0F1D40020CBF4 /* GSLoginNavigationController.m */; };
+		B9B913681CD1F2580020CBF4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B913671CD1F2580020CBF4 /* MBProgressHUD.m */; };
+		B9B9140E1CE0C2EA0020CBF4 /* GSUserMyAnalysisDetailsShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B9140D1CE0C2EA0020CBF4 /* GSUserMyAnalysisDetailsShowViewController.m */; };
+		B9B914101CE0C4A60020CBF4 /* GSUserIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B9140F1CE0C4A60020CBF4 /* GSUserIcon.png */; };
+		B9B914161CE1F9F20020CBF4 /* GSForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B914151CE1F9F20020CBF4 /* GSForgetPasswordViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B91A45641CC7C6C200BEFFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B91A453F1CC7C6C100BEFFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B91A45461CC7C6C100BEFFDF;
+			remoteInfo = GoSign;
+		};
+		B91A456F1CC7C6C200BEFFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B91A453F1CC7C6C100BEFFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B91A45461CC7C6C100BEFFDF;
+			remoteInfo = GoSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B90FC9D61CE2F928000828D1 /* GSUserSettingsFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserSettingsFrontViewController.h; sourceTree = "<group>"; };
+		B90FC9D71CE2F928000828D1 /* GSUserSettingsFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserSettingsFrontViewController.m; sourceTree = "<group>"; };
+		B90FC9DB1CE2FB56000828D1 /* AccordionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionView.h; sourceTree = "<group>"; };
+		B90FC9DC1CE2FB56000828D1 /* AccordionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccordionView.m; sourceTree = "<group>"; };
+		B90FC9DE1CE30A74000828D1 /* GSRightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSRightArrow.png; sourceTree = "<group>"; };
+		B90FC9E01CE35BC3000828D1 /* GSRightArrowBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSRightArrowBlack.png; sourceTree = "<group>"; };
+		B91A45471CC7C6C100BEFFDF /* GoSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91A454B1CC7C6C100BEFFDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B91A454D1CC7C6C100BEFFDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B91A454E1CC7C6C100BEFFDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B91A45571CC7C6C100BEFFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B91A45591CC7C6C100BEFFDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B91A455C1CC7C6C100BEFFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B91A455E1CC7C6C100BEFFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91A45631CC7C6C200BEFFDF /* GoSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91A45671CC7C6C200BEFFDF /* GoSignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoSignTests.m; sourceTree = "<group>"; };
+		B91A45691CC7C6C200BEFFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91A456E1CC7C6C200BEFFDF /* GoSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91A45721CC7C6C200BEFFDF /* GoSignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoSignUITests.m; sourceTree = "<group>"; };
+		B91A45741CC7C6C200BEFFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91A458B1CC7D3F700BEFFDF /* GSPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSPageContentViewController.h; sourceTree = "<group>"; };
+		B91A458C1CC7D3F700BEFFDF /* GSPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSPageContentViewController.m; sourceTree = "<group>"; };
+		B91A458E1CC7D51000BEFFDF /* GSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLoginViewController.h; sourceTree = "<group>"; };
+		B91A458F1CC7D51000BEFFDF /* GSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLoginViewController.m; sourceTree = "<group>"; };
+		B91A45921CC7D6F800BEFFDF /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		B91A45941CC7E47000BEFFDF /* GSSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSSignUpViewController.h; sourceTree = "<group>"; };
+		B91A45951CC7E47000BEFFDF /* GSSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSSignUpViewController.m; sourceTree = "<group>"; };
+		B91A45971CC7E8EF00BEFFDF /* GSBackgroundImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GSBackgroundImage.jpg; sourceTree = "<group>"; };
+		B91A45991CC7F1DB00BEFFDF /* GSSlideImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GSSlideImage3.jpg; sourceTree = "<group>"; };
+		B91A459B1CC7F1E000BEFFDF /* GSSlideImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GSSlideImage2.jpg; sourceTree = "<group>"; };
+		B91A459C1CC7F1E000BEFFDF /* GSSlideImage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GSSlideImage1.jpg; sourceTree = "<group>"; };
+		B93769321CCE459000FA5E1A /* GSUserTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserTabBarController.h; sourceTree = "<group>"; };
+		B93769331CCE459000FA5E1A /* GSUserTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserTabBarController.m; sourceTree = "<group>"; };
+		B9382A171CE37F26004C5F5E /* GSUserChangePlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserChangePlanViewController.h; sourceTree = "<group>"; };
+		B9382A181CE37F26004C5F5E /* GSUserChangePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserChangePlanViewController.m; sourceTree = "<group>"; };
+		B9382A1A1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserTransactionHistoryViewController.h; sourceTree = "<group>"; };
+		B9382A1B1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserTransactionHistoryViewController.m; sourceTree = "<group>"; };
+		B9382A1D1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSSignUpTimeFileChooserViewController.h; sourceTree = "<group>"; };
+		B9382A1E1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSSignUpTimeFileChooserViewController.m; sourceTree = "<group>"; };
+		B9382A201CE48BD7004C5F5E /* GSBoldaddicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSBoldaddicon.png; sourceTree = "<group>"; };
+		B9382A231CE4A3FB004C5F5E /* GSUserAskQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserAskQuestionViewController.h; sourceTree = "<group>"; };
+		B9382A241CE4A3FB004C5F5E /* GSUserAskQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserAskQuestionViewController.m; sourceTree = "<group>"; };
+		B98027091CC7FC360022E734 /* GSUserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserSettingsViewController.h; sourceTree = "<group>"; };
+		B980270A1CC7FC360022E734 /* GSUserSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserSettingsViewController.m; sourceTree = "<group>"; };
+		B980270C1CC801470022E734 /* GSUserProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GSUserProfile.jpg; sourceTree = "<group>"; };
+		B980274D1CC8F69D0022E734 /* GSUserHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserHomeViewController.h; sourceTree = "<group>"; };
+		B980274E1CC8F69D0022E734 /* GSUserHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserHomeViewController.m; sourceTree = "<group>"; };
+		B98027531CC9E7E50022E734 /* GSColorsDeclarationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSColorsDeclarationViewController.h; sourceTree = "<group>"; };
+		B98027541CC9E7E50022E734 /* GSColorsDeclarationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSColorsDeclarationViewController.m; sourceTree = "<group>"; };
+		B9B3218E1CCA974D007BC434 /* GSUserContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserContactUsViewController.h; sourceTree = "<group>"; };
+		B9B3218F1CCA974D007BC434 /* GSUserContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserContactUsViewController.m; sourceTree = "<group>"; };
+		B9B321911CCA99C3007BC434 /* GSUserMyCapturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserMyCapturesViewController.h; sourceTree = "<group>"; };
+		B9B321921CCA99C3007BC434 /* GSUserMyCapturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserMyCapturesViewController.m; sourceTree = "<group>"; };
+		B9B321941CCAB155007BC434 /* GSUserAnalysisTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserAnalysisTableViewController.h; sourceTree = "<group>"; };
+		B9B321951CCAB155007BC434 /* GSUserAnalysisTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserAnalysisTableViewController.m; sourceTree = "<group>"; };
+		B9B3219B1CCAB9DA007BC434 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		B9B3219D1CCABA07007BC434 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		B9B3219F1CCABB24007BC434 /* Chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chat.png; sourceTree = "<group>"; };
+		B9B321A11CCABB90007BC434 /* Analysis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Analysis.png; sourceTree = "<group>"; };
+		B9B321A31CCB99B9007BC434 /* GSWebServicesCalling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWebServicesCalling.h; sourceTree = "<group>"; };
+		B9B321A41CCB99B9007BC434 /* GSWebServicesCalling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWebServicesCalling.m; sourceTree = "<group>"; };
+		B9B912C11CCE89340020CBF4 /* GSSplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSSplashScreen.png; sourceTree = "<group>"; };
+		B9B913011CCF4DBB0020CBF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B9B913111CCF689B0020CBF4 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		B9B913121CCF689B0020CBF4 /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked@2x.png"; sourceTree = "<group>"; };
+		B9B913131CCF689B0020CBF4 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		B9B913141CCF689B0020CBF4 /* unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked@2x.png"; sourceTree = "<group>"; };
+		B9B9131F1CCF84570020CBF4 /* GSClockIconWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSClockIconWhite.png; sourceTree = "<group>"; };
+		B9B913211CCF849B0020CBF4 /* GSCalenderIconWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSCalenderIconWhite.png; sourceTree = "<group>"; };
+		B9B913231CCF86EE0020CBF4 /* GSCalenderIconBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSCalenderIconBlack.png; sourceTree = "<group>"; };
+		B9B913241CCF86EE0020CBF4 /* GSClockIconBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSClockIconBlack.png; sourceTree = "<group>"; };
+		B9B9135E1CD0F1D40020CBF4 /* GSLoginNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLoginNavigationController.h; sourceTree = "<group>"; };
+		B9B9135F1CD0F1D40020CBF4 /* GSLoginNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLoginNavigationController.m; sourceTree = "<group>"; };
+		B9B913661CD1F2580020CBF4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B9B913671CD1F2580020CBF4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B9B913B81CDC99500020CBF4 /* Samplevideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Samplevideo.mp4; sourceTree = "<group>"; };
+		B9B9140C1CE0C2EA0020CBF4 /* GSUserMyAnalysisDetailsShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserMyAnalysisDetailsShowViewController.h; sourceTree = "<group>"; };
+		B9B9140D1CE0C2EA0020CBF4 /* GSUserMyAnalysisDetailsShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserMyAnalysisDetailsShowViewController.m; sourceTree = "<group>"; };
+		B9B9140F1CE0C4A60020CBF4 /* GSUserIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSUserIcon.png; sourceTree = "<group>"; };
+		B9B914141CE1F9F20020CBF4 /* GSForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSForgetPasswordViewController.h; sourceTree = "<group>"; };
+		B9B914151CE1F9F20020CBF4 /* GSForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSForgetPasswordViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B91A45441CC7C6C100BEFFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B913021CCF4DBB0020CBF4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91A45601CC7C6C200BEFFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91A456B1CC7C6C200BEFFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90FC9D91CE2FB34000828D1 /* ThirdParties */ = {
+			isa = PBXGroup;
+			children = (
+				B90FC9DA1CE2FB49000828D1 /* AccordianView */,
+				B9B913651CD1F2440020CBF4 /* MBProgressHUD */,
+			);
+			name = ThirdParties;
+			sourceTree = "<group>";
+		};
+		B90FC9DA1CE2FB49000828D1 /* AccordianView */ = {
+			isa = PBXGroup;
+			children = (
+				B90FC9DB1CE2FB56000828D1 /* AccordionView.h */,
+				B90FC9DC1CE2FB56000828D1 /* AccordionView.m */,
+			);
+			name = AccordianView;
+			sourceTree = "<group>";
+		};
+		B91A453E1CC7C6C100BEFFDF = {
+			isa = PBXGroup;
+			children = (
+				B9B913011CCF4DBB0020CBF4 /* QuartzCore.framework */,
+				B91A45491CC7C6C100BEFFDF /* GoSign */,
+				B91A45661CC7C6C200BEFFDF /* GoSignTests */,
+				B91A45711CC7C6C200BEFFDF /* GoSignUITests */,
+				B91A45481CC7C6C100BEFFDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B91A45481CC7C6C100BEFFDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B91A45471CC7C6C100BEFFDF /* GoSign.app */,
+				B91A45631CC7C6C200BEFFDF /* GoSignTests.xctest */,
+				B91A456E1CC7C6C200BEFFDF /* GoSignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B91A45491CC7C6C100BEFFDF /* GoSign */ = {
+			isa = PBXGroup;
+			children = (
+				B91A45911CC7D6EA00BEFFDF /* GSImageSection */,
+				B91A458A1CC7CD8B00BEFFDF /* GSSignUpSection */,
+				B91A45831CC7C70100BEFFDF /* GSUtilitySection */,
+				B91A45821CC7C6ED00BEFFDF /* GSAnalysisSection */,
+				B91A45811CC7C6E500BEFFDF /* GSUserSectionGroups */,
+				B91A45801CC7C6D900BEFFDF /* GSLoginSection */,
+				B91A45561CC7C6C100BEFFDF /* Main.storyboard */,
+				B9B913B81CDC99500020CBF4 /* Samplevideo.mp4 */,
+				B91A45591CC7C6C100BEFFDF /* Assets.xcassets */,
+				B91A455B1CC7C6C100BEFFDF /* LaunchScreen.storyboard */,
+				B91A455E1CC7C6C100BEFFDF /* Info.plist */,
+				B91A454A1CC7C6C100BEFFDF /* Supporting Files */,
+			);
+			path = GoSign;
+			sourceTree = "<group>";
+		};
+		B91A454A1CC7C6C100BEFFDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B91A454B1CC7C6C100BEFFDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B91A45661CC7C6C200BEFFDF /* GoSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				B91A45671CC7C6C200BEFFDF /* GoSignTests.m */,
+				B91A45691CC7C6C200BEFFDF /* Info.plist */,
+			);
+			path = GoSignTests;
+			sourceTree = "<group>";
+		};
+		B91A45711CC7C6C200BEFFDF /* GoSignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B91A45721CC7C6C200BEFFDF /* GoSignUITests.m */,
+				B91A45741CC7C6C200BEFFDF /* Info.plist */,
+			);
+			path = GoSignUITests;
+			sourceTree = "<group>";
+		};
+		B91A45801CC7C6D900BEFFDF /* GSLoginSection */ = {
+			isa = PBXGroup;
+			children = (
+				B91A458B1CC7D3F700BEFFDF /* GSPageContentViewController.h */,
+				B91A458C1CC7D3F700BEFFDF /* GSPageContentViewController.m */,
+				B91A458E1CC7D51000BEFFDF /* GSLoginViewController.h */,
+				B91A458F1CC7D51000BEFFDF /* GSLoginViewController.m */,
+				B9B9135E1CD0F1D40020CBF4 /* GSLoginNavigationController.h */,
+				B9B9135F1CD0F1D40020CBF4 /* GSLoginNavigationController.m */,
+				B9B914141CE1F9F20020CBF4 /* GSForgetPasswordViewController.h */,
+				B9B914151CE1F9F20020CBF4 /* GSForgetPasswordViewController.m */,
+			);
+			name = GSLoginSection;
+			sourceTree = "<group>";
+		};
+		B91A45811CC7C6E500BEFFDF /* GSUserSectionGroups */ = {
+			isa = PBXGroup;
+			children = (
+				B9382A221CE4A3DF004C5F5E /* GSUserAskQuestionsPages */,
+				B9B913631CD1062D0020CBF4 /* GSUserTabBarPages */,
+				B9B3218D1CCA9735007BC434 /* GSUserContactUsPages */,
+				B91A45871CC7C7D800BEFFDF /* GSUserMyAnalysisPages */,
+				B91A45861CC7C7CD00BEFFDF /* GSUserMyCapturesPages */,
+				B91A45851CC7C7A600BEFFDF /* GSUserSettingPages */,
+				B91A45841CC7C71300BEFFDF /* GSUserHomePages */,
+			);
+			name = GSUserSectionGroups;
+			sourceTree = "<group>";
+		};
+		B91A45821CC7C6ED00BEFFDF /* GSAnalysisSection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GSAnalysisSection;
+			sourceTree = "<group>";
+		};
+		B91A45831CC7C70100BEFFDF /* GSUtilitySection */ = {
+			isa = PBXGroup;
+			children = (
+				B90FC9D91CE2FB34000828D1 /* ThirdParties */,
+				B91A454D1CC7C6C100BEFFDF /* AppDelegate.h */,
+				B91A454E1CC7C6C100BEFFDF /* AppDelegate.m */,
+				B91A45891CC7C81700BEFFDF /* GSGlobalVariablesSection */,
+				B91A45881CC7C80000BEFFDF /* GSWebServicesSection */,
+			);
+			name = GSUtilitySection;
+			sourceTree = "<group>";
+		};
+		B91A45841CC7C71300BEFFDF /* GSUserHomePages */ = {
+			isa = PBXGroup;
+			children = (
+				B980274D1CC8F69D0022E734 /* GSUserHomeViewController.h */,
+				B980274E1CC8F69D0022E734 /* GSUserHomeViewController.m */,
+			);
+			name = GSUserHomePages;
+			sourceTree = "<group>";
+		};
+		B91A45851CC7C7A600BEFFDF /* GSUserSettingPages */ = {
+			isa = PBXGroup;
+			children = (
+				B98027091CC7FC360022E734 /* GSUserSettingsViewController.h */,
+				B980270A1CC7FC360022E734 /* GSUserSettingsViewController.m */,
+				B90FC9D61CE2F928000828D1 /* GSUserSettingsFrontViewController.h */,
+				B90FC9D71CE2F928000828D1 /* GSUserSettingsFrontViewController.m */,
+				B9382A171CE37F26004C5F5E /* GSUserChangePlanViewController.h */,
+				B9382A181CE37F26004C5F5E /* GSUserChangePlanViewController.m */,
+				B9382A1A1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.h */,
+				B9382A1B1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.m */,
+			);
+			name = GSUserSettingPages;
+			sourceTree = "<group>";
+		};
+		B91A45861CC7C7CD00BEFFDF /* GSUserMyCapturesPages */ = {
+			isa = PBXGroup;
+			children = (
+				B9B321911CCA99C3007BC434 /* GSUserMyCapturesViewController.h */,
+				B9B321921CCA99C3007BC434 /* GSUserMyCapturesViewController.m */,
+			);
+			name = GSUserMyCapturesPages;
+			sourceTree = "<group>";
+		};
+		B91A45871CC7C7D800BEFFDF /* GSUserMyAnalysisPages */ = {
+			isa = PBXGroup;
+			children = (
+				B9B321941CCAB155007BC434 /* GSUserAnalysisTableViewController.h */,
+				B9B321951CCAB155007BC434 /* GSUserAnalysisTableViewController.m */,
+				B9B9140C1CE0C2EA0020CBF4 /* GSUserMyAnalysisDetailsShowViewController.h */,
+				B9B9140D1CE0C2EA0020CBF4 /* GSUserMyAnalysisDetailsShowViewController.m */,
+			);
+			name = GSUserMyAnalysisPages;
+			sourceTree = "<group>";
+		};
+		B91A45881CC7C80000BEFFDF /* GSWebServicesSection */ = {
+			isa = PBXGroup;
+			children = (
+				B9B321A31CCB99B9007BC434 /* GSWebServicesCalling.h */,
+				B9B321A41CCB99B9007BC434 /* GSWebServicesCalling.m */,
+			);
+			name = GSWebServicesSection;
+			sourceTree = "<group>";
+		};
+		B91A45891CC7C81700BEFFDF /* GSGlobalVariablesSection */ = {
+			isa = PBXGroup;
+			children = (
+				B98027531CC9E7E50022E734 /* GSColorsDeclarationViewController.h */,
+				B98027541CC9E7E50022E734 /* GSColorsDeclarationViewController.m */,
+			);
+			name = GSGlobalVariablesSection;
+			sourceTree = "<group>";
+		};
+		B91A458A1CC7CD8B00BEFFDF /* GSSignUpSection */ = {
+			isa = PBXGroup;
+			children = (
+				B91A45941CC7E47000BEFFDF /* GSSignUpViewController.h */,
+				B91A45951CC7E47000BEFFDF /* GSSignUpViewController.m */,
+				B9382A1D1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.h */,
+				B9382A1E1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.m */,
+			);
+			name = GSSignUpSection;
+			sourceTree = "<group>";
+		};
+		B91A45911CC7D6EA00BEFFDF /* GSImageSection */ = {
+			isa = PBXGroup;
+			children = (
+				B91A45971CC7E8EF00BEFFDF /* GSBackgroundImage.jpg */,
+				B9B9140F1CE0C4A60020CBF4 /* GSUserIcon.png */,
+				B9B913111CCF689B0020CBF4 /* checked.png */,
+				B9382A201CE48BD7004C5F5E /* GSBoldaddicon.png */,
+				B9B913121CCF689B0020CBF4 /* checked@2x.png */,
+				B90FC9E01CE35BC3000828D1 /* GSRightArrowBlack.png */,
+				B90FC9DE1CE30A74000828D1 /* GSRightArrow.png */,
+				B9B913131CCF689B0020CBF4 /* unchecked.png */,
+				B9B913141CCF689B0020CBF4 /* unchecked@2x.png */,
+				B91A459B1CC7F1E000BEFFDF /* GSSlideImage2.jpg */,
+				B9B913231CCF86EE0020CBF4 /* GSCalenderIconBlack.png */,
+				B9B913241CCF86EE0020CBF4 /* GSClockIconBlack.png */,
+				B9B9131F1CCF84570020CBF4 /* GSClockIconWhite.png */,
+				B9B913211CCF849B0020CBF4 /* GSCalenderIconWhite.png */,
+				B980270C1CC801470022E734 /* GSUserProfile.jpg */,
+				B9B321A11CCABB90007BC434 /* Analysis.png */,
+				B9B3219F1CCABB24007BC434 /* Chat.png */,
+				B9B3219D1CCABA07007BC434 /* Home.png */,
+				B9B3219B1CCAB9DA007BC434 /* Settings.png */,
+				B91A459C1CC7F1E000BEFFDF /* GSSlideImage1.jpg */,
+				B9B912C11CCE89340020CBF4 /* GSSplashScreen.png */,
+				B91A45991CC7F1DB00BEFFDF /* GSSlideImage3.jpg */,
+				B91A45921CC7D6F800BEFFDF /* image1.jpg */,
+			);
+			name = GSImageSection;
+			sourceTree = "<group>";
+		};
+		B9382A221CE4A3DF004C5F5E /* GSUserAskQuestionsPages */ = {
+			isa = PBXGroup;
+			children = (
+				B9382A231CE4A3FB004C5F5E /* GSUserAskQuestionViewController.h */,
+				B9382A241CE4A3FB004C5F5E /* GSUserAskQuestionViewController.m */,
+			);
+			name = GSUserAskQuestionsPages;
+			sourceTree = "<group>";
+		};
+		B9B3218D1CCA9735007BC434 /* GSUserContactUsPages */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3218E1CCA974D007BC434 /* GSUserContactUsViewController.h */,
+				B9B3218F1CCA974D007BC434 /* GSUserContactUsViewController.m */,
+			);
+			name = GSUserContactUsPages;
+			sourceTree = "<group>";
+		};
+		B9B913631CD1062D0020CBF4 /* GSUserTabBarPages */ = {
+			isa = PBXGroup;
+			children = (
+				B93769321CCE459000FA5E1A /* GSUserTabBarController.h */,
+				B93769331CCE459000FA5E1A /* GSUserTabBarController.m */,
+			);
+			name = GSUserTabBarPages;
+			sourceTree = "<group>";
+		};
+		B9B913651CD1F2440020CBF4 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B9B913661CD1F2580020CBF4 /* MBProgressHUD.h */,
+				B9B913671CD1F2580020CBF4 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B91A45461CC7C6C100BEFFDF /* GoSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91A45771CC7C6C200BEFFDF /* Build configuration list for PBXNativeTarget "GoSign" */;
+			buildPhases = (
+				B91A45431CC7C6C100BEFFDF /* Sources */,
+				B91A45441CC7C6C100BEFFDF /* Frameworks */,
+				B91A45451CC7C6C100BEFFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoSign;
+			productName = GoSign;
+			productReference = B91A45471CC7C6C100BEFFDF /* GoSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B91A45621CC7C6C200BEFFDF /* GoSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91A457A1CC7C6C200BEFFDF /* Build configuration list for PBXNativeTarget "GoSignTests" */;
+			buildPhases = (
+				B91A455F1CC7C6C200BEFFDF /* Sources */,
+				B91A45601CC7C6C200BEFFDF /* Frameworks */,
+				B91A45611CC7C6C200BEFFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B91A45651CC7C6C200BEFFDF /* PBXTargetDependency */,
+			);
+			name = GoSignTests;
+			productName = GoSignTests;
+			productReference = B91A45631CC7C6C200BEFFDF /* GoSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B91A456D1CC7C6C200BEFFDF /* GoSignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91A457D1CC7C6C200BEFFDF /* Build configuration list for PBXNativeTarget "GoSignUITests" */;
+			buildPhases = (
+				B91A456A1CC7C6C200BEFFDF /* Sources */,
+				B91A456B1CC7C6C200BEFFDF /* Frameworks */,
+				B91A456C1CC7C6C200BEFFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B91A45701CC7C6C200BEFFDF /* PBXTargetDependency */,
+			);
+			name = GoSignUITests;
+			productName = GoSignUITests;
+			productReference = B91A456E1CC7C6C200BEFFDF /* GoSignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B91A453F1CC7C6C100BEFFDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rahul Yadav (Contractor)";
+				TargetAttributes = {
+					B91A45461CC7C6C100BEFFDF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = G5F48S88JC;
+					};
+					B91A45621CC7C6C200BEFFDF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B91A45461CC7C6C100BEFFDF;
+					};
+					B91A456D1CC7C6C200BEFFDF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B91A45461CC7C6C100BEFFDF;
+					};
+				};
+			};
+			buildConfigurationList = B91A45421CC7C6C100BEFFDF /* Build configuration list for PBXProject "GoSign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B91A453E1CC7C6C100BEFFDF;
+			productRefGroup = B91A45481CC7C6C100BEFFDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B91A45461CC7C6C100BEFFDF /* GoSign */,
+				B91A45621CC7C6C200BEFFDF /* GoSignTests */,
+				B91A456D1CC7C6C200BEFFDF /* GoSignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B91A45451CC7C6C100BEFFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B913151CCF689B0020CBF4 /* checked.png in Resources */,
+				B9B3219C1CCAB9DA007BC434 /* Settings.png in Resources */,
+				B9B913161CCF689B0020CBF4 /* checked@2x.png in Resources */,
+				B9B913181CCF689B0020CBF4 /* unchecked@2x.png in Resources */,
+				B9B321A21CCABB90007BC434 /* Analysis.png in Resources */,
+				B91A455D1CC7C6C100BEFFDF /* LaunchScreen.storyboard in Resources */,
+				B9B913221CCF849B0020CBF4 /* GSCalenderIconWhite.png in Resources */,
+				B91A45981CC7E8EF00BEFFDF /* GSBackgroundImage.jpg in Resources */,
+				B9B321A01CCABB24007BC434 /* Chat.png in Resources */,
+				B9B913171CCF689B0020CBF4 /* unchecked.png in Resources */,
+				B9B913201CCF84570020CBF4 /* GSClockIconWhite.png in Resources */,
+				B91A455A1CC7C6C100BEFFDF /* Assets.xcassets in Resources */,
+				B9B912C21CCE89340020CBF4 /* GSSplashScreen.png in Resources */,
+				B9B914101CE0C4A60020CBF4 /* GSUserIcon.png in Resources */,
+				B90FC9DF1CE30A74000828D1 /* GSRightArrow.png in Resources */,
+				B9B913261CCF86EE0020CBF4 /* GSClockIconBlack.png in Resources */,
+				B90FC9E11CE35BC3000828D1 /* GSRightArrowBlack.png in Resources */,
+				B9B3219E1CCABA07007BC434 /* Home.png in Resources */,
+				B91A459A1CC7F1DB00BEFFDF /* GSSlideImage3.jpg in Resources */,
+				B91A45931CC7D6F800BEFFDF /* image1.jpg in Resources */,
+				B9B913251CCF86EE0020CBF4 /* GSCalenderIconBlack.png in Resources */,
+				B91A459D1CC7F1E000BEFFDF /* GSSlideImage2.jpg in Resources */,
+				B980270D1CC801470022E734 /* GSUserProfile.jpg in Resources */,
+				B91A45581CC7C6C100BEFFDF /* Main.storyboard in Resources */,
+				B91A459E1CC7F1E000BEFFDF /* GSSlideImage1.jpg in Resources */,
+				B9382A211CE48BD7004C5F5E /* GSBoldaddicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91A45611CC7C6C200BEFFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91A456C1CC7C6C200BEFFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B91A45431CC7C6C100BEFFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91A45961CC7E47000BEFFDF /* GSSignUpViewController.m in Sources */,
+				B9B321931CCA99C3007BC434 /* GSUserMyCapturesViewController.m in Sources */,
+				B9B321901CCA974D007BC434 /* GSUserContactUsViewController.m in Sources */,
+				B9382A1F1CE486D4004C5F5E /* GSSignUpTimeFileChooserViewController.m in Sources */,
+				B9382A191CE37F26004C5F5E /* GSUserChangePlanViewController.m in Sources */,
+				B9B9140E1CE0C2EA0020CBF4 /* GSUserMyAnalysisDetailsShowViewController.m in Sources */,
+				B980270B1CC7FC360022E734 /* GSUserSettingsViewController.m in Sources */,
+				B9B321A51CCB99B9007BC434 /* GSWebServicesCalling.m in Sources */,
+				B9B914161CE1F9F20020CBF4 /* GSForgetPasswordViewController.m in Sources */,
+				B9B321961CCAB155007BC434 /* GSUserAnalysisTableViewController.m in Sources */,
+				B91A454F1CC7C6C100BEFFDF /* AppDelegate.m in Sources */,
+				B980274F1CC8F69D0022E734 /* GSUserHomeViewController.m in Sources */,
+				B93769341CCE459000FA5E1A /* GSUserTabBarController.m in Sources */,
+				B98027551CC9E7E50022E734 /* GSColorsDeclarationViewController.m in Sources */,
+				B9382A251CE4A3FB004C5F5E /* GSUserAskQuestionViewController.m in Sources */,
+				B91A45901CC7D51000BEFFDF /* GSLoginViewController.m in Sources */,
+				B9B913601CD0F1D40020CBF4 /* GSLoginNavigationController.m in Sources */,
+				B91A454C1CC7C6C100BEFFDF /* main.m in Sources */,
+				B91A458D1CC7D3F700BEFFDF /* GSPageContentViewController.m in Sources */,
+				B9382A1C1CE380EA004C5F5E /* GSUserTransactionHistoryViewController.m in Sources */,
+				B90FC9D81CE2F928000828D1 /* GSUserSettingsFrontViewController.m in Sources */,
+				B9B913681CD1F2580020CBF4 /* MBProgressHUD.m in Sources */,
+				B90FC9DD1CE2FB56000828D1 /* AccordionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91A455F1CC7C6C200BEFFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91A45681CC7C6C200BEFFDF /* GoSignTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91A456A1CC7C6C200BEFFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91A45731CC7C6C200BEFFDF /* GoSignUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B91A45651CC7C6C200BEFFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B91A45461CC7C6C100BEFFDF /* GoSign */;
+			targetProxy = B91A45641CC7C6C200BEFFDF /* PBXContainerItemProxy */;
+		};
+		B91A45701CC7C6C200BEFFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B91A45461CC7C6C100BEFFDF /* GoSign */;
+			targetProxy = B91A456F1CC7C6C200BEFFDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B91A45561CC7C6C100BEFFDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91A45571CC7C6C100BEFFDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B91A455B1CC7C6C100BEFFDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91A455C1CC7C6C100BEFFDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B91A45751CC7C6C200BEFFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B91A45761CC7C6C200BEFFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B91A45781CC7C6C200BEFFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GoSign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iems.gosign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B91A45791CC7C6C200BEFFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GoSign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iems.gosign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B91A457B1CC7C6C200BEFFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iems.gosign.GoSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoSign.app/GoSign";
+			};
+			name = Debug;
+		};
+		B91A457C1CC7C6C200BEFFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iems.gosign.GoSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoSign.app/GoSign";
+			};
+			name = Release;
+		};
+		B91A457E1CC7C6C200BEFFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iems.gosign.GoSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoSign;
+			};
+			name = Debug;
+		};
+		B91A457F1CC7C6C200BEFFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iems.gosign.GoSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoSign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B91A45421CC7C6C100BEFFDF /* Build configuration list for PBXProject "GoSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91A45751CC7C6C200BEFFDF /* Debug */,
+				B91A45761CC7C6C200BEFFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B91A45771CC7C6C200BEFFDF /* Build configuration list for PBXNativeTarget "GoSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91A45781CC7C6C200BEFFDF /* Debug */,
+				B91A45791CC7C6C200BEFFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B91A457A1CC7C6C200BEFFDF /* Build configuration list for PBXNativeTarget "GoSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91A457B1CC7C6C200BEFFDF /* Debug */,
+				B91A457C1CC7C6C200BEFFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B91A457D1CC7C6C200BEFFDF /* Build configuration list for PBXNativeTarget "GoSignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91A457E1CC7C6C200BEFFDF /* Debug */,
+				B91A457F1CC7C6C200BEFFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B91A453F1CC7C6C100BEFFDF /* Project object */;
+}
