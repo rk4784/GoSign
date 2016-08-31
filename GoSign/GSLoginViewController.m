@@ -24,7 +24,7 @@ NSUserDefaults *defaults;
 #pragma mark - View Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.loginButtonOutlet.layer setShadowOffset:CGSizeMake(5, 5)];
+    [self.loginButtonOutlet.layer setShadowOffset:CGSizeMake(5, 7)];
     [self.loginButtonOutlet.layer setShadowColor:[[UIColor blackColor] CGColor]];
     [self.loginButtonOutlet.layer setShadowOpacity:0.5];
    // loginButtonOutlet.enabled = NO;
